@@ -1,0 +1,134 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    /* ---------- Background ---------- */
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #1e3c72, #2a5298 60%, #4a7bd0);
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ---------- Card ---------- */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 16;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 30, 0.1, 0, 10);
+}
+
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e3c72;
+}
+
+.subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #7a869a;
+}
+
+.field-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b6b82;
+}
+
+/* ---------- Text fields ---------- */
+.text-field {
+    -fx-background-color: #f4f6fb;
+    -fx-background-radius: 8;
+    -fx-border-color: #d9dfeb;
+    -fx-border-radius: 8;
+    -fx-border-width: 1.5;
+    -fx-padding: 10 12 10 12;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #a5afc0;
+}
+
+.text-field:focused {
+    -fx-background-color: white;
+    -fx-border-color: #2a5298;
+    -fx-effect: dropshadow(gaussian, rgba(42,82,152,0.30), 8, 0, 0, 0);
+}
+
+.text-field.invalid {
+    -fx-border-color: #e74c3c;
+    -fx-background-color: #fff6f5;
+}
+
+.text-field.valid {
+    -fx-border-color: #27ae60;
+}
+
+.error-label {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 12px;
+}
+
+/* ---------- Buttons ---------- */
+.btn-primary {
+    -fx-background-color: linear-gradient(to right, #2a5298, #4a7bd0);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 11 20 11 20;
+    -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to right, #1e3c72, #2a5298);
+    -fx-effect: dropshadow(gaussian, rgba(42,82,152,0.5), 10, 0, 0, 3);
+}
+
+.btn-secondary {
+    -fx-background-color: #eef1f7;
+    -fx-text-fill: #4a5a75;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 11 20 11 20;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #dde3ef;
+}
+
+/* ---------- Pop-up dialog ---------- */
+.dialog-pane {
+    -fx-background-color: white;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.dialog-pane > .header-panel {
+    -fx-background-color: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.dialog-pane > .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #2a5298;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 7 24 7 24;
+    -fx-cursor: hand;
+}
+
+.detail-key {
+    -fx-font-weight: bold;
+    -fx-text-fill: #5b6b82;
+    -fx-font-size: 14px;
+}
+
+.detail-value {
+    -fx-text-fill: #1e3c72;
+    -fx-font-size: 14px;
+}
+
+}
